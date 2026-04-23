@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\services\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\services\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|c:\\users\\dell\\desktop\\project\\project 2\\ems-miniproject2\\ems.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|EMS.API\\EMS.API.csproj|solutionrelative:ems.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "EMS.API\\Services\\EmployeeService.cs",
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "EMS.API\\Services\\EmployeeRepository.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\Services\\EmployeeRepository.cs",
               "RelativeToolTip": "EMS.API\\Services\\EmployeeRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowC8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T11:43:53.974Z"
             },
@@ -68,39 +68,38 @@
               "RelativeDocumentMoniker": "EMS.API\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "EMS.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-15T12:47:11.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T12:47:11.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\Program.cs",
               "RelativeDocumentMoniker": "EMS.API\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\Program.cs",
               "RelativeToolTip": "EMS.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T12:27:42.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\appsettings.json",
-              "RelativeDocumentMoniker": "EMS.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\appsettings.json",
-              "RelativeToolTip": "EMS.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-15T12:00:48.903Z",
+              "WhenOpened": "2026-04-15T12:27:42.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "EMS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\appsettings.json",
+              "RelativeToolTip": "EMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T12:00:48.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\Project 2\\EMS-MiniProject2\\EMS.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EMS.API\\Data\\AppDbContext.cs",

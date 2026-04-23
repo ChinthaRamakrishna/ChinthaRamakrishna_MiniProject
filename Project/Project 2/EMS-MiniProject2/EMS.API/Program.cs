@@ -8,20 +8,17 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-// 🔹 EF Core + SQL Server
+//  EF Core + SQL Server
 var connStr = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connStr));
 
-
-// 🔹 Dependency Injection
+//  Dependency Injection
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<EmployeeService>();
 builder.Services.AddScoped<AuthService>();
 
-
-// 🔹 JWT Authentication
+//  JWT Authentication
 var jwtKey = builder.Configuration["Jwt:Key"];
 
 builder.Services
@@ -32,8 +29,10 @@ builder.Services
         {
             ValidateIssuer = true,
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
+
             ValidateAudience = true,
             ValidAudience = builder.Configuration["Jwt:Audience"],
+
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
 
@@ -42,28 +41,22 @@ builder.Services
         };
     });
 
-
-// 🔹 CORS (Frontend Access)
+//  CORRECT CORS (FIXED)
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend", policy =>
-    {
-        policy.WithOrigins(
-                "http://localhost:5500",
-                "http://127.0.0.1:5500",
-                "http://localhost:3000"
-            )
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
 });
 
-
-// 🔹 Controllers
+//  Controllers
 builder.Services.AddControllers();
 
-
-// 🔹 Swagger + JWT Support
+//  Swagger + JWT Support
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -74,7 +67,7 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Employee Management System API"
     });
 
-    // 🔐 Add JWT Auth in Swagger
+    //  JWT in Swagger
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -101,17 +94,16 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-
 var app = builder.Build();
 
-
-// 🔹 Middleware Pipeline
+//  Middleware Pipeline
 app.UseSwagger();
 app.UseSwaggerUI();
 
+//  CORS must come BEFORE auth
 app.UseCors("AllowFrontend");
 
-app.UseAuthentication();   //  VERY IMPORTANT
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
